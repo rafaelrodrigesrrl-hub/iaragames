@@ -1,0 +1,122 @@
+:root {
+    --bg-principal: #1a0a37;
+    --texto-principal: #F5F5F7;
+    --cor-destaque: #c472ef;
+    --cor-subtitulo: #d9c0f9;
+    
+    --fonte-principal: "Saira Semi Condensed", sans-serif;
+    --fonte-titulo: "Nabla", system-ui;
+
+    --tamanho-titulo: 100px;
+    --tamanho-subtitulo: 60px;
+    --tamanho-texto: 16px;
+
+    --tamanho-card: 300px;
+    --cor-card: #2a1a4d;
+    --border-radius-card: 8px;
+    --border-radius-img: 8px 12px 8px 12px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: var(--texto-principal);
+    font-family: var(--fonte-titulo)                    ;
+    font-optical-sizing: auto;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+h2 {
+    color: var(--cor-subtitulo);
+    margin-top: 40px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
+}
+.card-container {
+    display: flex;
+
+}
+.card {
+    width: 300px; 
+    border-radius: 8px;
+    padding: 15px;
+
+}
+img {
+    width: 95%; 
+    border-radius: 8px 12px 8px 12px;
+
+}
+h4 {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 200;
+    font-style: normal;
+    color: var(--texto-principal);
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    font-family: var(--fonte-principal)         ;
+    font-weight: 400;
+    font-style: normal;
+}
+h3 {
+    text-align: center;
+    color: var(--texto-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-style: normal;
+}
+p {
+    font-family: var(--fonte-principal) ;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--texto-principal);
+}
+
+.titulo-novidades {
+    text-align: center;
+    font-size: 60px;
+    color: var(--texto-principal);
+    font-family: var(--fonte-titulo)            ;
+}   
+
+.titulo-minhas-compras {
+    text-align: center;
+    font-size: 60px;
+    color: var(--texto-principal);
+    font-family: var(--fonte-titulo)            ;
+}
+
+.titulo-meus-favoritos {
+    text-align: center;
+    font-size: 60px;
+    color: var(--texto-principal);
+    font-family: var(--fonte-titulo)            ;
+}
+body {
+    font-family: var(--fonte-principal);
+    color: var(--texto-principal);
+}   
+
+*{
+    margin: 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: var(--cor-destaque);
+}
+span {
+    text-decoration: line-through;
+}
+body {
+    background-color:var(--bg-principal);
+}
