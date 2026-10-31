@@ -1,7 +1,6 @@
  CONTEXTO, JUSTIFICATIVA E IMPLEMENTAÇÕES NA SPRINT 2
 
 Após a avaliação da Sprint 1 as decisões das atualizações foram:
-<<<<<<< HEAD
 
 Mudança visual na paleta de cores: A escolha para a representação da brasilidade necessária para o projeto IARAGAMES consiste na mudança de tons roxos para tons terrosos e vermelhos. Associa a coloração dos solos da mata atlântica e a Pau-Brasil, árvore endêmica da região da mata atlântica brasileira que se estende de norte a sudeste do país.
 
@@ -47,22 +46,17 @@ Epic Games: A plataforma trabalha com um dispersão massiva de exclusividades te
 
 ACESSIBILIDADE (Diretrizes WCAG)
 Apesar da mudança brusca de tonalidades a relação de alto contraste entre o fundo, cards, textos e ícones alinham-se diretamente às diretrizes da WCAG. O projeto utiliza tags de hierarquia  compreensível por leitores de tela, uso de campos de texto alternativo/descritivo em todas as mídias visuais e em campos de formulário, onde além das descrições nos campos foram adicionados ícones que remetem ao conteúdo a ser preenchido .
-=======
  Mudança visual na paleta de cores: A escolha para a representação da brasilidade necessária para o projeto IARAGAMES consiste na mudança de tons roxos para tons terrosos e vermelhos. Associa a coloração dos solos da mata atlântica e a Pau-Brasil, árvore endêmica da região da mata atlântica brasileira que se estende de norte a sudeste do país.
 Mudança da fonte: A mudança da fonte de textos ocorre devido a ideia de uma apresentação mais futurista. Saindo da fonte “SAIRA SEMI CONDENSED” para a fonte "MICHROMA STATIC".
 
 IMPLEMENTAÇÃO DE FORMULÁRIOS: Alinhado com as aulas onlines foi adicionado os formulários de cadastro, criação de conta e acesso a conta alinhadas com a identidade visual do projeto.
 
 CORREÇÃO DA SEMÂNTICA NO <HEAD>: Simplificação e correção de itens duplicados e fora de ordem. 
->>>>>>> 85f7b1d9edee97205f503b90073d5605d0bc5de4
-
 
  ESTRUTURA E JUSTIFICATIVAS DE DESIGN E UX
  Paleta de Cores e Hierarquia Visual
 Fundo Principal — Marrom Escuro (#1f0705): Minimiza a fadiga visual e destaca elementos claros da interface. Escolha da cor baseada em tons terrosos.
 
-<<<<<<< HEAD
-=======
 Texto Principal — Branco (#F5F5F7): Gera alto contraste em relação ao fundo, facilitando a leitura.Escolha da cor baseada em tons terrosos do solo rico em material orgânico que cresce o Pau-Brasil.
 
 Subtítulos — Vermelho terracota (#aa2222): Estipula hierarquia visual leve sem causar desconforto visual. Mantém a paleta de tons terrosos. 
