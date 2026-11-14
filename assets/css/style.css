@@ -22,6 +22,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: var(--fonte-principal);
+    color: var(--texto-principal);
+    text-wrap: balance;
+    background-color: var(--bg-principal);
+    margin: 0;
+    padding: 10px;
+}
+
 h1 {
     text-align: center;
     color: var(--texto-principal);
@@ -35,28 +44,23 @@ h1 {
 }
 
 h2 {
+    width: 100%;
     color: var(--cor-subtitulo);
     margin-top: 40px;
     font-size: var(--tamanho-subtitulo);
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-style: normal;
-    text-wrap: balance
-}
-
-.card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-}
-
-.card:hover img{
-    opacity: 0.8;
-    scale: 1.05;
-
+    text-wrap: balance;
 }
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
 }
 
 .card {
@@ -68,6 +72,16 @@ h2 {
     background-color: var(--cor-card);
     margin: 5px;
     border-radius: var(--border-radius-card);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover img{
+    opacity: 0.8;
+    scale: 1.05;
 }
 
 @keyframes viewanimation {
@@ -84,6 +98,7 @@ to {
 img {
     width: 95%; 
     border-radius: 8px 12px 8px 12px;
+    height: auto;
 }
 
 h4, h3 {
@@ -96,14 +111,17 @@ h4, h3 {
 }
 
 ul {
+    width: 100%;
     list-style-type: none;
     display: flex;
-    gap: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-style: normal;
-    text-wrap: balance
+    text-wrap: balance;
+    padding: 0;
 }
 
 p {
@@ -115,23 +133,9 @@ p {
     text-wrap: balance;
 }
 
-.titulo-novidades, .titulo-destaques, .titulo-minhas-compras{
-    text-align: center;
-    font-size: 60px;
-    color: var(--texto-principal);
-    font-family: var(--fonte-titulo) ;
-}   
-
-body {
-    font-family: var(--fonte-principal);
-    color: var(--texto-principal);
-    text-wrap: balance;
-    background-color: var(--bg-principal);
-}
-
 a, button{
     display: inline-flex;
-    flex: 1;
+    justify-content: center;
     text-decoration: none;
     border: none;
     padding: 12px 24px;
@@ -140,9 +144,8 @@ a, button{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
     color: var(--cor-subtitulo);
-    transition: background-color 0.3s ease;
+    cursor: pointer;
 }
 
 span {
@@ -157,6 +160,13 @@ h1.titulo-proposta {
     margin-bottom: 20px;
 }
 
+.titulo-novidades, .titulo-destaques, .titulo-minhas-compras{
+    text-align: center;
+    font-size: 60px;
+    color: var(--texto-principal);
+    font-family: var(--fonte-titulo) ;
+}   
+
 body.corpo2 {
     font-family: var(--fonte-principal);
     background-color: var(--bg-principal);
@@ -168,14 +178,6 @@ h1.titulo2 {
     font-size: var(--fonte--titulo2);
 }
 
-class.box-cad{
-    font-family: var(--fonte-principal);
-    color: var(var(--texto-principal));
-    font-size: var(--tamanho-titulo2);
-    font-weight: 400;
-    margin-bottom: 20px;
-    
-}
 .form {
     display: flex;
     flex-direction: column;
@@ -189,12 +191,21 @@ class.box-cad{
     border-radius: 12px;
 }
 
+class.box-cad{
+    font-family: var(--fonte-principal);
+    color: var(var(--texto-principal));
+    font-size: var(--tamanho-titulo2);
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+
 .box-cad label{
     display: flex;
     font-size: 16px;
     color: var(--texto-principal);
     font-weight: 400;
-    width: 400px;
+    width: 100%;
     height: auto;
     padding: 10px;
 }
@@ -215,7 +226,6 @@ input:focus, select:focus {
     border: 2px solid var(--cor-destaque);
     outline: none;
 }
-
 
 input,select{
     width: 100%;
@@ -238,7 +248,7 @@ input:focus, select:focus {
     position: relative; 
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 100%;
     gap: 6px; 
 }
 
@@ -257,7 +267,7 @@ input:focus, select:focus {
     display: flex;
     align-items: center;
     gap: 12px;
-    width: 400px;
+    width: 100%;
     margin: 10px auto;
     position: relative;
     line-height: 1.5;
@@ -265,15 +275,50 @@ input:focus, select:focus {
 }
 
 .radio {
-    width: 20px;
+    width: 100%;
     height: 20px;
     cursor: pointer;
     accent-color: var(--cor-destaque);
     position: absolute;
-    left:-20px;
-    top: 30px;
+    left:-250px;
+    top: 20px;
 }
 
+@media (max-width:1024px) {
+    .card-container{padding: 0 10px;
+    }
+    .card{max-width: 45%;
+    }
 
+    @media (max-width:768px) {
+        .card-container{flex-direction: column;
+        align-items: center;
+    }
+    .card{ 
+        width: 100%;
+        max-width: 90%;
+    }    
+    .form{
+    width: 95%;
+    padding: 15px;
+    margin: auto;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    a, button{
+        width: 100%;
+        justify-content: center;
+    }
+}
 
-
+@media (max-width:480px) {
+    h1{
+        font-family: 32px;
+    }
+    .titulo-novidades, .titulo-destaques, .titulo-minhas-compras{
+        font-size: 28px;
+    }
+}}
