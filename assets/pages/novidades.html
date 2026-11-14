@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Novidades - Iara Games</title>
+    
+        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Novidades & Atualizações - Iara Games</title>
 
     <link rel="icon" href="../imagens/newspaper.svg" type="image/svg+xml">
 
@@ -12,31 +15,107 @@
     <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100..900;1,100..900&family=Michroma&family=Nabla&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <H1>Novidades</H1>
+    <header class="header-container">
+            <div class ="logo">
+                <a href="index.html">
+                    <img src="../imagens/logoicon.png" alt="IaraGames Logo" title="Iara Games">
+                </a>
+            </div>
+        <nav class="nav-capsula">
+            <ul class="bar-navegacao">
+                <li><a href="/index.html" class="botoes" >Catálogo</a></li>
+                <li><a href="/assets/pages/meus favoritos.html" class="botoes"><i class="bi bi-bookmark-heart"></i>Meus Favoritos</a></li>
+                <li><a href="/assets/pages/minhas compras.html" class="botoes"><i class="bi bi-cart2"></i>Minhas Compras</a></li>
+                <li><a href="/assets/pages/cadastro.html" class="botao-cad"><i></i>Cadastro</a></li>
+            </ul>
+        </nav>
+        <div class="busca-bootstrap">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar jogos..." aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+        </div>
+    </header>
+        <H1 class="titulos">Novidades & Atualizações</H1>
+        <p class="subtitulos">Acompanhe todas as melhorias, patches de sistema e novidades que estão chegando na sua plataforma indie Iara Games.</p>
 
-    <H3>Jogos atualizados!</H3>
-    <p>Jogos 1, atualizado dia 00/00/0000</p>
-    <p>Jogos 2, atualizado dia 00/00/0000</p>  
+    <main class="conteudo">
+        <section class="sessão-atualizados">
+        <h2>🔥Em destaque: Jogos com Updates recentes.</h2>
+    <div class="card-container">
+        <article class="card">
+            <img src="../imagens/pexels-bennett-tobias-889753-1797137.jpg" alt="Imagem Jogo Lançamento 1" title="Imagem Jogo Lançamento 1" loading="lazy">
+            <h3 class="titulo-card">"Nome do Jogo"</h3>
+            <p>Última atualização realizada: 01/10/2026 ás 23:59</p>
+            <p>Otimização de texturas para a resolução 4k.</p>
+        </article>
+        <article class="card">
+            <img src="../imagens/pexels-bennett-tobias-889753-1797137.jpg" alt="Imagem Jogo Lançamento 2" title="Imagem Jogo Lançamento 2" loading="lazy">
+            <h3 class="titulo-card">"Nome do Jogo" </h3>
+            <p>Última atualização realizada: 18/09/2026 ás 23:59</p>
+            <p>Melhoria de graficos e expansão de catálogo.</p>
+        </article>
+    </div>
+        </section>
+    
+    <section class="sessão-atualiza">
+            <h2> ⚙️ Patch Notes - Versão 1.1.1 de Sistema </h2>
+            <p>Estamos constantemente trabalhando para melhorar a experiência do usuário em nossa plataforma de jogos. </p>
+        <ul class="lista-sistema">
+            <li>Atualização de layout, cores e tipografia</li>
+            <li>Interface (ux/ui): Melhoria em responsividade </li>
+            <li>Correção de hiperlinks</li>
+        </ul>
+    </section>
 
-    <h3>Atualização de sistema</h3>
-<p>Estamos constantemente trabalhando para melhorar a experiência do usuário em nossa plataforma de jogos. Recentemente, realizamos uma atualização de sistema que trouxe melhorias significativas em termos de desempenho, estabilidade e segurança. Agora, você poderá desfrutar de uma navegação mais rápida e fluida, além de contar com recursos aprimorados para gerenciar sua conta e suas preferências de jogo.</p>
+    <section>
+        <h2> ⏳ Proximas de atualizações de sistema.</h2>
+        <p>A atualização traz novos recursos e melhorias para tornar sua experiência ainda mais satisfatória.</p>
+        <p>Data de lançamento: 00/00/0000 ás 00:00h</p>   
+    </section>
 
-    <h3>Novos recursos</h3>
-    <p>A atualização traz novos recursos e melhorias para tornar sua experiência ainda mais satisfatória.
-        Data de lançamento: 00/00/0000 ás 00:00h
-    </p>
+    <section class="comentarios">
+        <h2> 💬 Deixe seu comentario ou sugestão</h2>
+        <p> Compartilhe conosco sua opnião:</p>
+    <div class="form-field">
+        <label for="fieldTextarea" class="form-label"></label>
+        <textarea class="form-control" id="fieldTextarea" rows="3"></textarea>
+    <p>O seu feedback, aqui importa!</p>
+    <button class="btn-solid" type="submit">Enviar</button>
+    
+</div>
 
+    </section>
+    </main>
+<footer>
+    <div class="footer-coluna">
+        <h4>Plataforma</h4>
+        <ul class="links">
+            <li><a href="../../index.html">Catálogo</a></li>
+            <li><a href="../pages/novidades.html">Novidades & Atualizações</a></li>
+            <li><a href="../pages/meus favoritos.html">Meus favoritos</a> </li>
+            <li><a href="../pages/minhas compras.html"> Minhas Compras</a></li>
+        </ul>
+        <h4 class="contato">Contato</h4>
+        <ul>
+            <li><i class="bi bi-envelope-at"></i>: iaragames.sac@gmail.com</li>
+            <li><i class="bi bi-telephone"></i>:<a href="tel: (11) 9999-9999"> (11) 9999-9999</a></li>
+        </ul>
+        <h4 class="redessociais">Social</h4>
+        <ul >
+            <li><i class="bi bi-instagram"></i>iaraindie</li>
+            <li><i class="bi bi-twitter-x"></i>Iaraggames</li>
+        </ul>
+        <div class="footer marca">
+            <img class="logo-footer" src="../imagens/logoicon.png" alt="IaraGames Logo" title="Iara Games">
+            <p>Plataforma indie 100% dedicada a valorização de studios independentes e produções nacionais.</p>
+            <p>Versão atual v1.1.1</p>
+    </div>
+    </div>
+</footer>
 
-
-
-
-
-
-    <a href="../../index.html">Voltar para a página inicial</a>
-
-</body>
 </html>
