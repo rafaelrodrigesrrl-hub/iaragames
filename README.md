@@ -4,6 +4,7 @@ A identidade visual da plataforma Iara Games foi concebida com o propósito de u
 Conceito e Símbolo: O nome "Iara" remete às raízes brasileiras, enquanto o ecossistema gráfico integra elementos retrofuturistas e referências ao universo arcade (como o joystick e a tipografia geométrica estilizada), simbolizando a fusão entre a identidade cultural do país e a tecnologia de ponta do desenvolvimento de jogos.
 Paleta de Cores: O projeto adota uma paleta de tons escuros profundos como base (background), projetada para garantir imersão visual e conforto em longas sessões de navegação, complementada por tons quentes de âmbar, dourado e vermelho vibrante como cores de destaque (accent), evocando energia, criatividade e o calor da produção nacional.
 Tipografia: Foram selecionadas famílias tipográficas modernas, geométricas e de alta legibilidade (como Oxanium e Kanit), que reforçam a estética tecnológica e futurista exigida por plataformas de entretenimento digital.
+
    JUSTIFICATIVAS DAS APLICAÇÕES DOS ELEMENTOS VISUAIS
 A aplicação prática dos elementos da identidade visual no desenvolvimento front-end da plataforma obedeceu a rigorosos critérios de ergonomia visual, experiência do utilizador (UX) e consistência de marca:
 Logótipo e Cabeçalho (Header):
@@ -12,6 +13,7 @@ Justificativa: Garante o reconhecimento de marca instantâneo (brand awareness) 
 Paleta de Cores e Contraste:
 Aplicação: Utilização de fundos escuros padronizados associados a elementos interativos e bordas em tons de âmbar e dourado.
 Justificativa: Além de consolidar a identidade visual imersiva da marca, o contraste acentuado entre o fundo escuro e a tipografia clara cumpre rigorosamente as normas de acessibilidade, evitando a fadiga visual e destacando os elementos acionáveis (call-to-actions).
+
    DESENVOLVIMENTO DAS PÁGINAS WEB E EVOLUÇÃO DO LAYOUT
  Página Principal (Home - index.html) e Evolução Arquitetural
 A página principal foi totalmente reestruturada para refletir a identidade visual oficial da Iara Games, priorizando uma experiência de navegação imersiva e moderna em ambiente desktop.
@@ -27,6 +29,7 @@ Componentes Utilizados: Classes de grelha e formulários do Bootstrap (row, col-
 Justificativa Técnica:
 Arquitetura de Grelha Responsiva: A implementação de colunas dinâmicas permite que o formulário ajuste a sua disposição conforme o ecrã. Campos complementares são dispostos lado a lado em desktops para otimizar o espaço visual.
 Consistência e Validação: O uso de classes padronizadas garante dimensões, margens e bordas consistentes, que recebem customização em tons escuros e âmbar para preservar rigorosamente a identidade visual da plataforma.
+
    INDICATIVO DE RECURSOS DE ACESSIBILIDADE E BOAS PRÁTICAS
 Contraste e Legibilidade: Aplicação estrita de uma paleta de cores de alto contraste (fundo escuro com tipografia clara e elementos de destaque em tons quentes), assegurando conforto visual prolongado.
 Semântica e Acessibilidade (HTML5/ARIA): Uso correto de tags estruturais semânticas (<header>, <main>, <section>, <footer>, <label>).
