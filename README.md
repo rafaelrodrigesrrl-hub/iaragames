@@ -30,4 +30,3 @@ Consistência e Validação: O uso de classes padronizadas garante dimensões, m
    INDICATIVO DE RECURSOS DE ACESSIBILIDADE E BOAS PRÁTICAS
 Contraste e Legibilidade: Aplicação estrita de uma paleta de cores de alto contraste (fundo escuro com tipografia clara e elementos de destaque em tons quentes), assegurando conforto visual prolongado.
 Semântica e Acessibilidade (HTML5/ARIA): Uso correto de tags estruturais semânticas (<header>, <main>, <section>, <footer>, <label>).
-
