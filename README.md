@@ -16,5 +16,5 @@ Justificativa Técnica: Garante responsividade adaptável a diferentes ecrãs, a
 
  Recursos de Acessibilidade e Boas Práticas
 Contraste e Legibilidade: Paleta de alto contraste entre fundo escuro e tipografia clara para evitar fadiga visual.
-Semântica HTML5: Uso de tags estruturais (<header>, <main>, <section>) e associação de rótulos (<label> / for) para suporte a leitores de ecrã.
+Semântica HTML5: Uso de tags estruturais (header, main, section) e associação de rótulos (label / for) para suporte a leitores de ecrã.
 Atributos Descritivos: Inclusão de textos alternativos (alt e title) em todas as imagens.
