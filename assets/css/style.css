@@ -489,11 +489,12 @@ p {
     font-family: var(--fonte-principal) ;
     font-size: var(--tamanho-texto);
     font-weight: 400;
-    padding-left: 10px ;
     font-style: normal;
     color: var(--texto-principal);
-    text-wrap: balance;
+    margin-bottom: 20px;
+    text-align: left;
 }
+
 span {
     text-decoration: line-through;
 }
@@ -737,9 +738,16 @@ input:focus, select:focus {
     min-height: 300px ;
     min-width: 600px;
 }
+.footer-marca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
 .logo-footer{
     width: 200px ;
-    position: absolute;
+    height: auto;
     margin-top: 50px;
 }
 .marca, .redessociais, .contato{
@@ -747,3 +755,91 @@ input:focus, select:focus {
     display: flex;
     justify-content: center;
 }
+/* --- CORREÇÃO DE EXTENSÃO TOTAL PARA OS TEXTOS DA PÁGINA B2D --- */
+.conteudo-b2d-total {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 40px !important;
+    box-sizing: border-box !important;
+    margin: 0 auto !important;
+}
+
+.infos-b2d {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin-bottom: 50px !important;
+}
+.infos-b2d p, 
+.texto-b2d {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+    box-sizing: border-box !important;
+    padding: 0 40px !important; 
+    text-align: left !important;
+    display: block !important;
+}
+.infos-b2d ul.B2D {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 20px !important;
+    margin: 20px 0 !important;
+    box-sizing: border-box !important;
+}
+
+.infos-b2d ul.B2D li {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+    margin-bottom: 15px !important;
+    display: list-item !important;
+    box-sizing: border-box !important;
+}
+.secao-formulario-b2d {
+    background-color: var(--cor-card);
+    padding: 10px;
+    border-radius: var(--border-radius-card);
+}
+.form-b2d-estilizado .form-label {
+    color: var(--texto-principal) !important;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.form-b2d-estilizado .form-control {
+    background-color: var(--bg-principal) !important;
+    color: var(--texto-principal) !important;
+    border: 1px solid var(--cor-destaque) !important;
+    border-radius: 8px !important;
+    padding: 12px 15px !important;
+    box-sizing: border-box !important;
+    width: 100%;
+}
+.form-b2d-estilizado .form-control::placeholder {
+    color: var(--texto-principal) !important;
+    opacity: 0.5;
+}
+.form-b2d-estilizado input[type="file"] {
+    border-radius: 8px !important;
+    padding: 7px !important;
+    box-sizing: border-box !important;
+}
+.form-b2d-estilizado input[type="file"]::file-selector-button {
+    background-color: var(--cor-destaque) !important;
+    color: var(--cor-subtitulo)!important;
+    font-family: var(--fonte-principal) !important;
+    font-weight: bold !important;
+}
+
+
+
+
+
+
+
+
