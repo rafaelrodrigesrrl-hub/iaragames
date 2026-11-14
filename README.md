@@ -1,9 +1,13 @@
 RELATÓRIO TÉCNICO: PLATAFORMA IARA GAMES
+ Proposta e Conceito da Identidade Visual da Logo Marca Iara 
+A identidade visual da Iara Games foi concebida para unir a riqueza do folclore nacional à indústria de jogos independentes (indie games):
+Símbolo e Elementos Gráficos: O ícone retrata uma mulher submersa, em referência direta à figura mitológica da Iara, simbolizando as raízes culturais brasileiras inseridas no ecossistema digital.
+Tipografia e Grafismo: A tipografia é elaborada com traços geométricos estruturados que remetem ao grafismo indígena, honrando a origem histórica das lendas do folclore brasileiro.
+Paleta de Cores e Aplicação: Utiliza tons escuros profundos para imersão visual, complementados por detalhes em âmbar e dourado (--cor-destaque) no cabeçalho e nos componentes da interface.
 
  Proposta e Justificativa da Identidade Visual
-A identidade visual da Iara Games une a cultura brasileira ao universo dos jogos independentes (indie games).
 Logótipo e Cabeçalho: Posicionado estrategicamente no canto superior esquerdo com hiperligação (../../index.html), garante reconhecimento imediato e acesso rápido à página inicial.
-Paleta de Cores e Tipografia: Utiliza tons escuros para imersão e conforto visual, complementados por detalhes em âmbar e dourado (--cor-destaque) e fontes geométricas modernas (Oxanium e Kanit).
+Paleta de Cores e Tipografia: Utiliza tons escuros para imersão e conforto visual, complementados por detalhes em âmbar e dourado (--cor-destaque) e fonte moderna (Michroma).
 
  Desenvolvimento e Evolução das Páginas Web
  Página Principal (Home - index.html)
